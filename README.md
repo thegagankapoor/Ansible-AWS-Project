@@ -32,7 +32,6 @@ Before starting, make sure you have:
 2. Click on **Users** → **Create User**  
 ![Screenshot_2](https://github.com/user-attachments/assets/b2f552dd-2e71-431d-9f65-ce10ee887ec6)
 3. Enter a **user name**, then click **Next**  
-![Screenshot_4](https://github.com/user-attachments/assets/6ff75caf-9661-40fa-8a4c-90cecdb56de3)
 4. Select **Attach policies directly**, search for **AmazonEC2FullAccess**, and select it  
 ![Screenshot_5](https://github.com/user-attachments/assets/4754b3c7-729d-4359-a3a1-6f21dbc7dab5)
 5. Click **Next** → **Create User**  
@@ -58,6 +57,8 @@ Then add your AWS credentials using the below vault command:
 ```bash
 ansible-vault create group_vars/all/pass.yml --vault-password-file ansiblevault.pass
 ```
+![Screenshot_13](https://github.com/user-attachments/assets/ae2d85dc-5865-4118-9395-af4308eae640)
+
 and Add
 ```yaml
 ec2_access_key: YOUR_ACCESS_KEY
