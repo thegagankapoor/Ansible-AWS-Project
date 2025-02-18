@@ -31,7 +31,6 @@ Before starting, make sure you have:
 ![Screenshot_1](https://github.com/user-attachments/assets/098bdb6e-5443-44e6-8616-2534c74c2b91)
 2. Click on **Users** → **Create User**  
 ![Screenshot_2](https://github.com/user-attachments/assets/b2f552dd-2e71-431d-9f65-ce10ee887ec6)
-![Screenshot_3](https://github.com/user-attachments/assets/1c9f2275-61e4-4352-88b5-6620250641e2)
 3. Enter a **user name**, then click **Next**  
 ![Screenshot_4](https://github.com/user-attachments/assets/6ff75caf-9661-40fa-8a4c-90cecdb56de3)
 4. Select **Attach policies directly**, search for **AmazonEC2FullAccess**, and select it  
